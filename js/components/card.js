@@ -20,7 +20,7 @@ export default class Card extends React.Component{
     const card = this.props.card
     //const { card } = this.props
     return (
-      <div onClick={this.toggleHighlight} className={`card ${this.state.highlight ? 'highlight' : ''}`}>
+      <div onMouseOut={this.toggleHighlight} className={`card ${this.state.highlight ? 'highlight' : ''}`}>
         <div className="card-title">{card.title}</div>
         <div className="card-date">{card.date}</div>
       </div>
