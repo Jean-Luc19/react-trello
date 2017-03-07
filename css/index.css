@@ -22,7 +22,8 @@
 .card-list{
 	display: inline-block;
 	margin: 10px;
-	max-width: 400px;
+	padding: 25px;
+	max-width: 800px;
 	border: .5px grey solid;
 	border-radius: 15px;
 	background-color: #4C5EA0;
